@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+    text-align: left;
+}
+
+.description,.story,.mission,.core-values,.why-choose-us,.our-services{
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: left;
+}
+h2{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+span{
+  color: #f00;
+}
+
+h4{
+    text-align: left;
+    font-size: 1.7em;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .about-us {
+    padding: 30px 15px;
+  }
+
+  .about-us h2 {
+    font-size: 2rem;
+  }
+
+  .about-us .description {
+    font-size: 1rem;
+  }
+
+  .container h3 {
+    font-size: 1.5rem;
+  }
+
+  .container p {
+    font-size: 0.9rem;
+  }
+
+  .container ul li {
+    font-size: 0.9rem;
+  }
+}

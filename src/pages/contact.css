@@ -1,0 +1,149 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .contact-us {
+    padding: 50px 20px;
+    background: linear-gradient(120deg, #f9f9f9, #ffffff);
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-header h2 {
+    font-size: 2.5rem;
+    color: #f00;
+  }
+  
+  .contact-header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-form h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #f00;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    resize: none;
+  }
+  
+  .submit-btn {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #666;
+  }
+  
+  /* Contact Details */
+  .contact-details {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-details h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #f00;
+  }
+  
+  .contact-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .contact-details ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .contact-details h4 {
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons .icon {
+    display: inline-block;
+    background-color: #f00;
+    color: #fff;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icons .icon:hover {
+    background-color: #666;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-form, .contact-details {
+      min-width: 100%;
+    }
+  }
+  
