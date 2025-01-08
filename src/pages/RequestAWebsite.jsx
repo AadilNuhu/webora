@@ -75,7 +75,7 @@ export default function RequestAWebsite() {
         {/* Budget and Timeline */}
         <div className="form-group">
           <label htmlFor="budget">Budget</label>
-          <input type="text" id="budget" name="budget" placeholder="Enter your budget" required />
+          <input type="text" id="budget" name="budget" placeholder="Enter Your Estimated Budget (or let's Talk)" required />
         </div>
 
         <div className="form-group">
